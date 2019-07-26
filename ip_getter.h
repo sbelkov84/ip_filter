@@ -7,6 +7,7 @@
 #include <tuple>
 //------------------------------------------------------------------------
 
+// use std::greater instead of std::less and get reverse lexicographical sort
 using TResultSet = std::multiset<std::vector<int>, std::greater<std::vector<int>>>;
 //------------------------------------------------------------------------
 
